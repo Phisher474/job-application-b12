@@ -1,4 +1,4 @@
-﻿name: Submit B12 Application
+﻿yamlname: Submit B12 Application
 
 on:
   workflow_dispatch:

@@ -46,8 +46,7 @@ def submit_application():
     if response.status_code == 200:
         result = response.json()
         if result.get('success'):
-            print(f"
-✓ SUCCESS!")
+            print(f"\n✓ SUCCESS!")
             print(f"Receipt: {result.get('receipt')}")
             return 0
     
